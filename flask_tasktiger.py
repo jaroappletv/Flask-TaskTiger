@@ -78,3 +78,4 @@ class TaskTiger(object):
             return ctx.tiger.log
         else:
            raise RuntimeError("You need to use this from a flask app context")
+
